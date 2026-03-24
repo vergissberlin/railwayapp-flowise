@@ -4,7 +4,7 @@
 
 Deploy [Flowise](https://flowiseai.com/) on Railway using the official `flowiseai/flowise` image.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mANNzY?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## Environment
 
