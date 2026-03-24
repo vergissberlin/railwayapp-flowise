@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-flowise",
+  "repo": "vergissberlin/railwayapp-flowise",
+  "displayName": "Flowise",
+  "publishedCode": "flowise-vb",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-flowise/main/template-header.svg",
+  "description": "Deploy Flowise LLM workflows on Railway with the official Docker image.",
+  "workspaceAutomation": false
+}
