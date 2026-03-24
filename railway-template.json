@@ -4,8 +4,8 @@
   "project": "railwayapp-flowise",
   "repo": "vergissberlin/railwayapp-flowise",
   "displayName": "Flowise",
-  "publishedCode": "flowise-vb",
-  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-flowise/main/template-header.svg",
+  "publishedCode": "flowise-3",
+  "image": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/flowise.svg",
   "description": "Deploy Flowise LLM workflows on Railway with the official Docker image.",
   "workspaceAutomation": false
 }
