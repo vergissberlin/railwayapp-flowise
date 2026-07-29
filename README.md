@@ -8,7 +8,7 @@ Deploy [Flowise](https://flowiseai.com/) on Railway using the official `flowisea
 
 ## Environment
 
-See [Flowise environment variables](https://docs.flowiseai.com/configuration/environment-variables). Persist flows by mounting a volume or setting storage-related env vars.
+See [Flowise environment variables](https://docs.flowiseai.com/configuration/environment-variables). `railway.toml` declares `requiredMountPath = "/root/.flowise"` (default location for flows, credentials, chat history, and blob storage) — attach a Railway volume to that path before production traffic.
 
 ## Local
 
