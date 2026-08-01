@@ -2,13 +2,17 @@
 
 ![Template Header](./template-header.svg)
 
-Deploy [Flowise](https://flowiseai.com/) on Railway using the official `flowiseai/flowise` image.
+Flowise is an open-source, low-code platform for building customized LLM workflows and AI agents through a drag-and-drop visual builder. It supports a wide range of language models, vector stores, and tools out of the box. This template deploys the official `flowiseai/flowise` Docker image on Railway, ready to use.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mANNzY?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## Environment
 
 See [Flowise environment variables](https://docs.flowiseai.com/configuration/environment-variables). `railway.toml` declares `requiredMountPath = "/root/.flowise"` (default location for flows, credentials, chat history, and blob storage) — attach a Railway volume to that path before production traffic.
+
+### Authentication
+
+Flowise supports built-in Basic Auth for the UI and API via the `FLOWISE_USERNAME` and `FLOWISE_PASSWORD` environment variables. They are optional, but strongly recommended for any deployment reachable from the public internet — without them, anyone with the URL can access your flows, credentials, and chat history. See `.env.example` and set both as generated secrets in the Railway dashboard.
 
 ## Local
 
