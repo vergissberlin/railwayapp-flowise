@@ -6,6 +6,15 @@ Flowise is an open-source, low-code platform for building customized LLM workflo
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mANNzY?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
+    Domain -->|"$PORT"| App["Container\nflowiseai/flowise:latest"]
+    App --> Volume[("Volume\n/root/.flowise")]
+```
+
 ## Environment
 
 See [Flowise environment variables](https://docs.flowiseai.com/configuration/environment-variables). `railway.toml` declares `requiredMountPath = "/root/.flowise"` (default location for flows, credentials, chat history, and blob storage) — attach a Railway volume to that path before production traffic.
