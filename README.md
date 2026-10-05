@@ -17,6 +17,8 @@ flowchart LR
 
 ## Environment
 
+The published template attaches `/root/.flowise`, generates an HTTP domain and administrator credentials, and generates `FLOWISE_SECRETKEY_OVERWRITE` to keep credential encryption stable across redeploys. `/api/v1/ping` is the unauthenticated deployment healthcheck; it does not bypass authentication for the application API.
+
 See [Flowise environment variables](https://docs.flowiseai.com/configuration/environment-variables). `railway.toml` declares `requiredMountPath = "/root/.flowise"` (default location for flows, credentials, chat history, and blob storage) — attach a Railway volume to that path before production traffic.
 
 ### Authentication
