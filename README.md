@@ -4,7 +4,7 @@
 
 Flowise is an open-source, low-code platform for building customized LLM workflows and AI agents through a drag-and-drop visual builder. It supports a wide range of language models, vector stores, and tools out of the box. This template deploys the official `flowiseai/flowise` Docker image on Railway, ready to use.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/mANNzY?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/flowise-3?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## 🏗️ Architecture
 
