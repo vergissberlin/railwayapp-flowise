@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.3](https://github.com/vergissberlin/railwayapp-flowise/compare/v0.1.2...v0.1.3) (2026-10-28)
+
+
+### Bug Fixes
+
+* **docker:** pin flowiseai/flowise to 3.1.4 ([#13](https://github.com/vergissberlin/railwayapp-flowise/issues/13)) ([8111e6e](https://github.com/vergissberlin/railwayapp-flowise/commit/8111e6ea8fe27a2ab48fa7cd67a323dcd5588543))
+
+
+### Documentation
+
+* fix Railway deploy button link and add template forum link ([#10](https://github.com/vergissberlin/railwayapp-flowise/issues/10)) ([4658f45](https://github.com/vergissberlin/railwayapp-flowise/commit/4658f457f6c0980987b6b79393537eb5ad1fcb6b))
+
 ## [0.1.2](https://github.com/vergissberlin/railwayapp-flowise/compare/v0.1.1...v0.1.2) (2026-10-06)
 
 
