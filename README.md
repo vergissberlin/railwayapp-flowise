@@ -32,6 +32,10 @@ docker build -t railwayapp-flowise .
 docker run --rm -p 8080:8080 -e PORT=8080 railwayapp-flowise
 ```
 
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/flowise-f1c39227).
+
 <!-- footer -->
 ---
 
